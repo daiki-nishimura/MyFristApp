@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+            //まーじ
         val btnClickMe = findViewById<Button>(R.id.mybutton)
         btnClickMe.setOnClickListener{
             btnClickMe.text = "HAHA you clicked me!"
