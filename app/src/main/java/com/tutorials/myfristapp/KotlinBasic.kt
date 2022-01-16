@@ -6,6 +6,7 @@ fun main() {
 
 class Person(firstName: String, lastName: String) {
     init {
+        //まーじ分
 //        println("Person created")
         println("Initialized a new Person object with" +
             "firstName = $firstName and lastName = $lastName")
