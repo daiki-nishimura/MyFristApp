@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
             //まーじ
+            //マージ後のコミット
         val btnClickMe = findViewById<Button>(R.id.mybutton)
         btnClickMe.setOnClickListener{
             btnClickMe.text = "HAHA you clicked me!"
